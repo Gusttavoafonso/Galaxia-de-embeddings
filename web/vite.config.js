@@ -1,4 +1,4 @@
-import { copyFileSync, mkdirSync } from 'node:fs';
+import { copyFileSync, mkdirSync, readdirSync, rmSync } from 'node:fs';
 import { createRequire } from 'node:module';
 import { dirname, join } from 'node:path';
 import { defineConfig } from 'vite';
@@ -15,6 +15,13 @@ function selfHostOnnxRuntime() {
       for (const ext of ['mjs', 'wasm']) {
         const f = `ort-wasm-simd-threaded.asyncify.${ext}`;
         copyFileSync(join(dist, f), join('public/ort', f));
+      }
+    },
+    // O bundler também emite uma cópia do .wasm em assets/ que nunca é pedida
+    // (wasmPaths aponta para ort/). Removê-la economiza 27 MB no deploy.
+    closeBundle() {
+      for (const f of readdirSync('dist/assets')) {
+        if (/^ort-wasm.*\.wasm$/.test(f)) rmSync(join('dist/assets', f));
       }
     },
   };

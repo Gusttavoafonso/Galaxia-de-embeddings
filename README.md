@@ -6,7 +6,7 @@
 
 **Um mapa 3D do conhecimento.** 52.260 artigos de Ciência da Computação do arXiv viram estrelas; os temas viram 82 constelações, batizadas por um LLM. Você digita uma pergunta, ela aparece como uma estrela dourada, a câmera voa até a vizinhança dela e um RAG responde usando as estrelas próximas.
 
-**Demo:** https://gusttavoafonso.github.io/Galaxia-de-embeddings/ (depois de ativar o GitHub Pages; veja [Publicando](#publicando)).
+**Demo: https://galaxia-de-embeddings.vercel.app**
 
 | A pergunta vira uma estrela | Cada constelação é um tema | Temas nascendo ao longo do tempo |
 |:--:|:--:|:--:|
@@ -87,7 +87,13 @@ Os parâmetros (consulta, período, modelo, UMAP, HDBSCAN) ficam em `pipeline/co
 
 ## Publicando
 
-O workflow `.github/workflows/pages.yml` faz o build e publica `web/dist` a cada push na `main`. Para ligar: **Settings → Pages → Source → GitHub Actions**. No Pages o site roda no modo estático (busca semântica no navegador, sem LLM). Para ter as respostas do Claude, suba `server/app.py` em um serviço como o Render e faça o build com `VITE_API_URL` apontando para ele.
+A demo está na Vercel, publicada a partir do build estático:
+
+```bash
+cd web && npm run build && npx vercel deploy dist --prod
+```
+
+Também há um workflow de GitHub Pages em `.github/workflows/pages.yml` (**Settings → Pages → Source → GitHub Actions**). Nos dois casos o site roda no modo estático (busca semântica no navegador, sem LLM). Para ter as respostas do Claude, suba `server/app.py` em um serviço como o Render e faça o build com `VITE_API_URL` apontando para ele.
 
 ## Limitações
 
