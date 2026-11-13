@@ -1,0 +1,330 @@
+{
+ "0": {
+  "name": "Redes Sem Fio",
+  "description": "Canais, interferência, MIMO e eficiência energética em comunicações sem fio."
+ },
+ "1": {
+  "name": "Robótica e RL",
+  "description": "Robôs, controle e planejamento, com políticas aprendidas por reinforcement learning."
+ },
+ "2": {
+  "name": "Visão 3D",
+  "description": "Profundidade, nuvens de pontos, pose de câmera e reconstrução de cenas."
+ },
+ "3": {
+  "name": "Lógica e Semântica Formal",
+  "description": "Autômatos, cálculos de tipos, provas e semântica de linguagens de programação."
+ },
+ "4": {
+  "name": "Tradução e Multilinguismo",
+  "description": "Tradução automática, embeddings de palavras e NLP em muitos idiomas."
+ },
+ "5": {
+  "name": "Algoritmos em Grafos",
+  "description": "Problemas combinatórios em grafos: aproximação, complexidade parametrizada e cortes."
+ },
+ "6": {
+  "name": "Fala e Áudio",
+  "description": "Reconhecimento e realce de fala, locutores, música e modelos de áudio."
+ },
+ "7": {
+  "name": "Segmentação Médica",
+  "description": "Deep learning para segmentar tumores e órgãos em imagens clínicas."
+ },
+ "8": {
+  "name": "Visão e Linguagem",
+  "description": "Modelos multimodais que raciocinam sobre imagens e vídeos com texto."
+ },
+ "9": {
+  "name": "Opinião nas Redes Sociais",
+  "description": "Sentimento, notícias e discurso em tweets e outras mídias sociais."
+ },
+ "10": {
+  "name": "Blockchain e Protocolos Seguros",
+  "description": "Contratos inteligentes, autenticação, consenso e ambientes de execução confiáveis."
+ },
+ "11": {
+  "name": "Redes Complexas",
+  "description": "Estrutura de comunidades, centralidade e espalhamento de epidemias e influência."
+ },
+ "12": {
+  "name": "Computação Paralela e GPUs",
+  "description": "Runtimes, memória e hardware para computação de alto desempenho."
+ },
+ "13": {
+  "name": "Computação Quântica",
+  "description": "Circuitos, emaranhamento, algoritmos quânticos e seus limites clássicos."
+ },
+ "14": {
+  "name": "Retrieval e RAG",
+  "description": "Busca, question answering e geração aumentada por recuperação."
+ },
+ "15": {
+  "name": "Raciocínio em LLMs",
+  "description": "Prompting, fine-tuning e avaliação do raciocínio de grandes modelos de linguagem."
+ },
+ "16": {
+  "name": "Engenharia de Software",
+  "description": "Código, testes e desenvolvedores, incluindo geração e reparo de código com LLMs."
+ },
+ "17": {
+  "name": "Cibersegurança e Malware",
+  "description": "Detecção de ameaças, vulnerabilidades e segurança de sistemas com LLMs."
+ },
+ "18": {
+  "name": "Teoria dos Jogos",
+  "description": "Equilíbrios, leilões, divisão justa e desenho de mecanismos."
+ },
+ "19": {
+  "name": "Detecção de Objetos",
+  "description": "Detecção, segmentação semântica e saliência em imagens."
+ },
+ "20": {
+  "name": "Ataques Adversariais",
+  "description": "Exemplos adversariais, backdoors e defesas para redes neurais."
+ },
+ "21": {
+  "name": "Compressão de Redes",
+  "description": "Quantização, pruning e treino eficiente de redes profundas."
+ },
+ "22": {
+  "name": "Séries Temporais",
+  "description": "Previsão de tráfego, clima e mercado com modelos espaço-temporais."
+ },
+ "23": {
+  "name": "Sistemas de Recomendação",
+  "description": "Filtragem colaborativa, ranking e recomendação sequencial e generativa."
+ },
+ "24": {
+  "name": "Rótulos e Classificação",
+  "description": "Rótulos ruidosos, active learning, ensembles e seleção de atributos."
+ },
+ "25": {
+  "name": "Complexidade Algébrica",
+  "description": "Polinômios, funções booleanas e limites inferiores de complexidade."
+ },
+ "26": {
+  "name": "Moléculas e Proteínas",
+  "description": "Aprendizado de máquina para descoberta de fármacos, química e materiais."
+ },
+ "27": {
+  "name": "Redes Neurais e Física",
+  "description": "PINNs, operadores neurais e equações diferenciais aprendidas."
+ },
+ "28": {
+  "name": "Teoria do Deep Learning",
+  "description": "Dinâmica do gradiente, ativações e generalização de redes profundas."
+ },
+ "29": {
+  "name": "Reconhecimento de Ações",
+  "description": "Ações humanas, esqueleto e marcha em vídeo."
+ },
+ "30": {
+  "name": "Federated Learning",
+  "description": "Treino distribuído entre clientes com restrições de comunicação e privacidade."
+ },
+ "31": {
+  "name": "Graph Neural Networks",
+  "description": "Representação de nós, message passing e predição de links."
+ },
+ "32": {
+  "name": "Kernels e Variedades",
+  "description": "Métodos de kernel, geometria riemanniana e aprendizado em variedades."
+ },
+ "33": {
+  "name": "Códigos Corretores de Erro",
+  "description": "Códigos cíclicos, MDS e de reparo para armazenamento distribuído."
+ },
+ "34": {
+  "name": "Matrizes e Tensores",
+  "description": "Completamento de matrizes, baixo posto, PCA e fatoração de tensores."
+ },
+ "35": {
+  "name": "Sistemas de Diálogo",
+  "description": "Agentes conversacionais, intenção, persona e diálogo orientado a tarefas."
+ },
+ "36": {
+  "name": "IA na Educação",
+  "description": "Estudantes, professores e ensino de programação com IA generativa."
+ },
+ "37": {
+  "name": "Transformers Eficientes",
+  "description": "Atenção, LoRA, MoE e aceleração de inferência em LLMs."
+ },
+ "38": {
+  "name": "Sensoriamento Remoto",
+  "description": "Imagens de satélite, SAR e drones para mapear terra e culturas."
+ },
+ "39": {
+  "name": "Bandits e Regret",
+  "description": "Multi-armed bandits, aprendizado online e limites de arrependimento."
+ },
+ "40": {
+  "name": "Faces",
+  "description": "Reconhecimento facial, identidade e reconstrução 3D de rostos."
+ },
+ "41": {
+  "name": "Agentes de LLM",
+  "description": "Agentes autônomos, uso de ferramentas, multiagentes e sua avaliação."
+ },
+ "42": {
+  "name": "Privacidade Diferencial",
+  "description": "Mecanismos privados, contabilidade de privacidade e utilidade dos dados."
+ },
+ "43": {
+  "name": "Compressed Sensing",
+  "description": "Recuperação de sinais esparsos a partir de poucas medições."
+ },
+ "44": {
+  "name": "Inferência Bayesiana",
+  "description": "Processos gaussianos, inferência variacional e MCMC."
+ },
+ "45": {
+  "name": "Otimização Evolutiva",
+  "description": "Algoritmos genéticos, enxames e metaheurísticas multiobjetivo."
+ },
+ "46": {
+  "name": "Detecção de Anomalias",
+  "description": "Outliers, dados fora da distribuição e defeitos, sem supervisão."
+ },
+ "47": {
+  "name": "Cientometria",
+  "description": "Citações, impacto e padrões de publicação científica."
+ },
+ "48": {
+  "name": "GANs e Modelos Generativos",
+  "description": "Redes adversariais generativas e os primeiros modelos de score e difusão."
+ },
+ "49": {
+  "name": "Simulação Numérica",
+  "description": "Elementos finitos, malhas e solvers para fluidos e sólidos."
+ },
+ "50": {
+  "name": "Reconstrução de Imagens Médicas",
+  "description": "Ressonância, tomografia e PET reconstruídas e sintetizadas com deep learning."
+ },
+ "51": {
+  "name": "Difusão e Edição de Imagens",
+  "description": "Geração texto-imagem, estilo e edição com modelos de difusão."
+ },
+ "52": {
+  "name": "Super-Resolução",
+  "description": "Restauração e aumento de resolução de imagens com qualidade perceptual."
+ },
+ "53": {
+  "name": "Adaptação de Domínio",
+  "description": "Transferir modelos de um domínio fonte para um alvo sem rótulos."
+ },
+ "54": {
+  "name": "SAT e Restrições",
+  "description": "Satisfatibilidade, CSPs e complexidade de provas."
+ },
+ "55": {
+  "name": "Computação Neuromórfica",
+  "description": "Redes neurais de spikes e hardware inspirado no cérebro."
+ },
+ "56": {
+  "name": "Sinais Cerebrais e Cardíacos",
+  "description": "EEG, ECG e interfaces cérebro-computador."
+ },
+ "57": {
+  "name": "Reconhecimento de Emoções",
+  "description": "Afeto em face, voz e texto, com fusão multimodal."
+ },
+ "58": {
+  "name": "Algoritmos Online",
+  "description": "Matching, escalonamento e empacotamento com análise competitiva."
+ },
+ "59": {
+  "name": "Ética e Governança de IA",
+  "description": "IA responsável, regulação e políticas públicas."
+ },
+ "60": {
+  "name": "Otimização Convexa e SGD",
+  "description": "Taxas de convergência de métodos de gradiente estocástico e de Newton."
+ },
+ "61": {
+  "name": "IA Explicável",
+  "description": "Explicações, interpretabilidade e avaliação de modelos caixa-preta."
+ },
+ "62": {
+  "name": "Mobilidade Urbana",
+  "description": "Padrões de deslocamento, cidades e transporte a partir de dados."
+ },
+ "63": {
+  "name": "Hashing e Busca por Similaridade",
+  "description": "Vizinhos mais próximos, LSH e learning to hash."
+ },
+ "64": {
+  "name": "OCR e Manuscritos",
+  "description": "Reconhecimento de texto em documentos, cenas e escrita à mão."
+ },
+ "65": {
+  "name": "Rastreamento de Objetos",
+  "description": "Tracking de múltiplos objetos e contagem de multidões."
+ },
+ "66": {
+  "name": "Energia e Smart Grids",
+  "description": "Previsão de carga elétrica, baterias e redes de energia."
+ },
+ "67": {
+  "name": "Inferência Causal",
+  "description": "Descoberta causal e efeitos de tratamento em dados observacionais."
+ },
+ "68": {
+  "name": "Computação em Nuvem",
+  "description": "Alocação de recursos, serverless e autoscaling de serviços."
+ },
+ "69": {
+  "name": "Marca d'Água e Esteganografia",
+  "description": "Ocultação de informação e watermarking de imagens e modelos."
+ },
+ "70": {
+  "name": "Realidade Virtual e Aumentada",
+  "description": "Interação imersiva, interfaces e percepção em VR e AR."
+ },
+ "71": {
+  "name": "Visualização de Dados",
+  "description": "Gráficos, ferramentas interativas e análise visual."
+ },
+ "72": {
+  "name": "Teoria da Informação",
+  "description": "Entropia, divergências e desigualdades de informação."
+ },
+ "73": {
+  "name": "Segurança de Hardware",
+  "description": "Ataques de canal lateral, atestação e integridade de execução."
+ },
+ "74": {
+  "name": "Algoritmos de Strings",
+  "description": "Índices de sufixos, casamento de padrões e sequências de DNA."
+ },
+ "75": {
+  "name": "ML Clínico",
+  "description": "Predição de risco e desfechos a partir de prontuários eletrônicos."
+ },
+ "76": {
+  "name": "Reidentificação de Pessoas",
+  "description": "Reconhecer o mesmo pedestre entre câmeras diferentes."
+ },
+ "77": {
+  "name": "Segurança na Camada Física",
+  "description": "Sigilo, jamming e comunicação encoberta em canais sem fio."
+ },
+ "78": {
+  "name": "Few-shot e Zero-shot",
+  "description": "Classificar com poucos ou nenhum exemplo, via meta-learning."
+ },
+ "79": {
+  "name": "Otimização Distribuída",
+  "description": "Gradiente descentralizado com comunicação comprimida e consenso."
+ },
+ "80": {
+  "name": "Continual Learning",
+  "description": "Aprender tarefas em sequência sem esquecimento catastrófico."
+ },
+ "81": {
+  "name": "Fairness",
+  "description": "Viés algorítmico, grupos protegidos e métricas de justiça em ML."
+ }
+}
