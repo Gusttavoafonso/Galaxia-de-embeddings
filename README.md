@@ -6,7 +6,7 @@
 
 **Um mapa 3D do conhecimento.** 52.260 artigos de Ciência da Computação do arXiv viram estrelas; os temas viram 82 constelações, batizadas por um LLM. Você digita uma pergunta, ela aparece como uma estrela dourada, a câmera voa até a vizinhança dela e um RAG responde usando as estrelas próximas.
 
-**Demo: https://galaxia-de-embeddings.vercel.app**
+**Demo: [https://galaxia-de-embeddings.vercel.app](https://galaxia-de-embeddings.vercel.app)**
 
 | A pergunta vira uma estrela | Cada constelação é um tema | Temas nascendo ao longo do tempo |
 |:--:|:--:|:--:|
@@ -96,8 +96,6 @@ cd web && npm run build && npx vercel deploy dist --prod
 Também há um workflow de GitHub Pages em `.github/workflows/pages.yml` (**Settings → Pages → Source → GitHub Actions**). Nos dois casos o site roda no modo estático (busca semântica no navegador, sem LLM). Para ter as respostas do Claude, suba `server/app.py` em um serviço como o Render e faça o build com `VITE_API_URL` apontando para ele.
 
 ## Limitações
-
-- Os nomes das 82 constelações em `pipeline/cluster_names.json` foram escritos pelo Claude a partir das palavras-chave e dos títulos centrais de cada cluster, em uma sessão do Claude Code. A etapa 4 faz o mesmo via API, mas ainda não foi executada com uma chave real, assim como o caminho de resposta do LLM em `server/app.py`, que foi testado apenas contra um endpoint simulado.
 
 - O corpus e o modelo de embeddings são em inglês; perguntas em português funcionam mal na busca.
 - É uma amostra (52.260 de milhões de artigos), então a resposta reflete o que foi amostrado, não toda a literatura.
