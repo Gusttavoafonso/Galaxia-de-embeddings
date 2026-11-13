@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/hero.gif" alt="Uma pergunta é digitada, vira uma estrela dourada e a câmera voa até os artigos mais próximos" width="100%">
+  <img src="docs/hero.webp" alt="Uma pergunta é digitada, vira uma estrela dourada e a câmera voa até os artigos mais próximos" width="100%">
 </p>
 
 # Galáxia de Embeddings
