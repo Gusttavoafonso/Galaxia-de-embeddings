@@ -18,6 +18,7 @@
 - **A pergunta cai no mapa.** A posição 3D dela é a média das vizinhas mais próximas no espaço original de 384 dimensões, ponderada pela similaridade.
 - **RAG com citações.** Com o backend ligado, o Claude responde em streaming usando só os resumos vizinhos, e cada `[n]` da resposta leva à estrela correspondente. Sem backend (GitHub Pages), o site destaca a frase mais relevante de cada resumo.
 - **Linha do tempo.** Aperte play e veja a galáxia se formar de 2012 a 2026: estrelas acendem na data de publicação e o painel "em alta" mostra as constelações que mais crescem em cada momento.
+- **O que o mapa conta.** Em 2020 os temas que mais cresciam eram *Federated Learning* (×2,5) e *Graph Neural Networks*; em 2026 é *Agentes de LLM* (×3,7), uma constelação que praticamente não existia antes de 2023.
 - **Constelações navegáveis.** Clique em um nome para ver palavras-chave, a fatia do tema no corpus ao longo dos anos e os artigos mais centrais.
 
 ## Como funciona
